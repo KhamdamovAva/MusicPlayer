@@ -39,7 +39,7 @@ $primary: #ff874a;
 }
 
 body {
-  background: #111010;
+  background: linear-gradient(to bottom, #485563, #29323c);
   overflow-x: hidden;
   font-family: "Ubuntu", serif;
   font-weight: 400;
@@ -48,7 +48,7 @@ body {
 
 .root {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,7 +56,8 @@ body {
 }
 
 .app {
-  background: linear-gradient(180deg, #6192c4 0%, #07386b 100%);
+  background: linear-gradient(to bottom, #283048, #859398);
+
   border-radius: 12px;
   padding: 24px 25px;
   margin-top: 34px;
